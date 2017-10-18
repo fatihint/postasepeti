@@ -56,4 +56,5 @@ header#header .after-header{
 footer#footer {
     height: 90px;
     border: 1px solid black;
+    line-height: 90px;
 }
