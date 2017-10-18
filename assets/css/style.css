@@ -1,0 +1,59 @@
+/**************************
+ HEADER
+***************************/
+
+header#header ul{
+    margin: 0;
+}
+
+header#header .container .company-name {
+    height: 80px;
+}
+
+header#header .container .company-name h1{
+    font-weight: bold;
+    color: green;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.37);
+}
+
+header#header .container .menu ul li:first-child{
+    padding-left: 0;
+}
+
+header#header .container .menu ul li{
+    padding: 0 2rem;
+}
+
+header#header .container .menu ul li a{
+    color: #5f5d5d;
+    font-size: 2rem;
+}
+
+header#header .container .menu ul li a:hover{
+    text-decoration: none;
+}
+
+header#header .images-menu {
+    background: green;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+header#header .images-menu .container {
+    height: 100px;
+    line-height: 100px;
+}
+
+header#header .after-header{
+    height: 90px;
+    border: 1px solid black;
+}
+
+/**************************
+ FOOTER
+***************************/
+
+footer#footer {
+    height: 90px;
+    border: 1px solid black;
+}
