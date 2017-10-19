@@ -52,6 +52,7 @@ header#header .after-header{
 #after-header{
 
 }
+
 /**************************
  FOOTER
 **************************/
@@ -67,6 +68,7 @@ header#header .after-header{
 /*************************
  BODY DİV
 *************************/
+
 #body{
   border:1px solid;
   border-radius: 8px;
@@ -75,4 +77,32 @@ header#header .after-header{
   margin-bottom: -30px;
   background: white;
   position: relative;
+}
+
+/***********************
+CAROUSEL
+***********************/
+
+.carousel-inner{
+  width: 100%;
+  height: auto;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.carousel-caption{
+  text-align: center;
+}
+
+.carousel-inner .item img{
+  width: 100%;
+}
+
+/*******************************
+MEDİA QUERİES
+*******************************/
+
+@media screen and (max-width: 768px) {
+  .carousel-caption{ text-align: center; font-size: 10px; }
+  .carousel-caption h1{ font-size: 14px; }
 }
