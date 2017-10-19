@@ -40,7 +40,7 @@ header#header .container .menu .navbar {
 
 header#header .container .menu .navbar .navbar-collapse {
     border: 0;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 
@@ -74,7 +74,7 @@ header#header .container .menu .navbar #bs-example-navbar-collapse-1 ul li a:hov
 }
 
 header#header .images-menu {
-    background: green;
+    background: #56a538;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
@@ -105,6 +105,9 @@ header#header .sprite {
     background: #e1e1e1;
     text-align: center;
     line-height: 90px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /*************************
