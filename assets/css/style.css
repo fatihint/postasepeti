@@ -61,11 +61,9 @@ header#header .after-header{
     border: 1px solid black;
     background: #e1e1e1;
     text-align: center;
+    line-height: 90px;
 }
-#copyright{
 
-
-}
 /*************************
  BODY DİV
 *************************/
