@@ -124,6 +124,25 @@ header#header .sprite {
   position: relative;
 }
 
+/***********************
+CAROUSEL
+***********************/
+
+.carousel-inner{
+  width: 100%;
+  height: auto;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.carousel-caption{
+  text-align: center;
+}
+
+.carousel-inner .item img{
+  width: 100%;
+}
+
 /*************************
  MEDIA QUERIES
 *************************/
@@ -135,5 +154,6 @@ header#header .sprite {
     header#header .container .company-name { display: none; }
     header#header .container .menu .navbar .navbar-collapse { margin-top: 20px;}
     header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
-
+    .carousel-caption{ text-align: center; font-size: 10px; }
+    .carousel-caption h1{ font-size: 14px; }
 }
