@@ -6,8 +6,25 @@ header#header ul{
     margin: 0;
 }
 
+header#header .container {
+    margin-top: 10px;
+}
+
 header#header .container .company-name {
     height: 80px;
+}
+
+header#header .container .company-name img{
+    height: 80px;
+    width: : 80px;
+}
+
+header#header .container .company-name .logo {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 200px;
+    background-position: 1rem 1rem;
 }
 
 header#header .container .company-name h1{
@@ -43,7 +60,6 @@ header#header .container .menu .navbar .navbar-collapse {
     overflow: hidden;
 }
 
-
 header#header .container .menu .navbar .navbar-header .navbar-brand{
     display: none;
     font-weight: bold;
@@ -68,9 +84,7 @@ header#header .container .menu .navbar #bs-example-navbar-collapse-1 ul li a{
 
 header#header .container .menu .navbar #bs-example-navbar-collapse-1 ul li a:hover{
     background: none;
-    color: #383535;
-    font-weight: bold;
-    font-size: 2.2rem;
+    color: #000;
 }
 
 header#header .images-menu {
@@ -80,7 +94,6 @@ header#header .images-menu {
 }
 
 header#header .images-menu .container {
-    /*height: 100px;*/
     line-height: 100px;
 }
 

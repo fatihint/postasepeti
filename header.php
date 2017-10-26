@@ -11,7 +11,7 @@
         <header id="header">
             <div class="container">
                 <div class="col-xs-12 company-name">
-                    <h1>www.postasepeti.com</h1>
+                    <img src="../assets/images/logo.png" alt="">
                 </div>
                 <div class="col-xs-12 menu">
                     <nav class="navbar navbar-default">
@@ -29,8 +29,8 @@
                             <ul class="nav navbar-nav">
                                 <li><a href="anasayfa.php">Ana Sayfa</a></li>
                                 <li><a href="hakkimizda.php">Hakkımızda</a></li>
-                                <li><a href="#">Sistem</a></li>
-                                <li><a href="#">Deneme</a></li>
+                                <li><a href="sistem.php">Sistem</a></li>
+                                <li><a href="deneme.php">Deneme</a></li>
                                 <li><a href="iletisim.php">İletişim</a></li>
                             </ul>
                         </div>
