@@ -158,6 +158,35 @@ CAROUSEL
   width: 100%;
 }
 
+/***********************
+DENEME
+***********************/
+
+#deneme .page-header{
+    background: #eee;
+    margin: 0;
+    padding: 25px 0;
+}
+
+#deneme .page-header h1 {
+    margin: 0;
+}
+
+#deneme .container {
+    padding: 20px 15px;
+}
+
+#deneme .container .radio-span {
+    float: left;
+    margin-left: 20px;
+}
+
+#deneme .container .radio-span label{
+    display: block;
+    text-align: center;
+}
+
+
 /*************************
  MEDIA QUERIES
 *************************/
