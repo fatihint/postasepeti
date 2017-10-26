@@ -5,13 +5,7 @@
         <title></title>
         <link rel="stylesheet" href="../assets/css/bootstrap.css">
         <link rel="stylesheet" href="../assets/css/style.css">
-<<<<<<< HEAD
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-=======
-        <script
-			  src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
->>>>>>> f1662306e2f790ea561f47010bbc767bccd4495b
     </head>
     <body>
         <header id="header">
@@ -33,11 +27,11 @@
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li><a href="#">Ana Sayfa</a></li>
-                                <li><a href="#">Hakkımızda</a></li>
+                                <li><a href="anasayfa.php">Ana Sayfa</a></li>
+                                <li><a href="hakkimizda.php">Hakkımızda</a></li>
                                 <li><a href="#">Sistem</a></li>
                                 <li><a href="#">Deneme</a></li>
-                                <li><a href="#">İletişim</a></li>
+                                <li><a href="iletisim.php">İletişim</a></li>
                             </ul>
                         </div>
                     </nav>

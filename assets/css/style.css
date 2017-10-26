@@ -100,14 +100,16 @@ header#header .sprite {
 **************************/
 
 #footer {
-    height: 90px;
     border: 1px solid black;
     background: #e1e1e1;
     text-align: center;
     line-height: 90px;
     position: absolute;
-    bottom: 0;
     width: 100%;
+}
+
+#footer .container p {
+    margin: 0;
 }
 
 /*************************
