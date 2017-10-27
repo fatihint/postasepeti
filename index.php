@@ -2,7 +2,7 @@
 
     include 'header.php';
 
-    include 'anasayfa.php';
+    include 'template-parts/anasayfa.php';
 
     include 'footer.php';
 

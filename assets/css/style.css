@@ -124,7 +124,12 @@ header#header .sprite {
   margin-bottom: -30px;
   background: white;
   position: relative;
+  font-size: 16px;
 }
+#body ul li ul {
+  font-size: 14px;
+}
+
 
 /***********************
 CAROUSEL
