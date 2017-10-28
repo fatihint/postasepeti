@@ -39,9 +39,11 @@
             </div>
             <div class="images-menu">
                 <div class="container">
+                  <div class="col-xs-12">
                     <ul class="list-unstyle list-inline">
-                        <li><button type="button" class="btn btn-primary btn-lg">Large button</button></li>
+                      <li><button class="btn btn-hero btn-lg" role="button">Deneme</button></li>
                     </ul>
+                  </div>
                 </div>
             </div>
         </header>

@@ -2,12 +2,12 @@
  HEADER
 **************************/
 
-header#header {
-    margin-top: 10px;
-}
-
 header#header ul{
     margin: 0;
+}
+
+header#header .container {
+    margin-top: 10px;
 }
 
 header#header .container .company-name {
@@ -126,74 +126,32 @@ header#header .sprite {
 }
 
 /*************************
- GLOBAL
+ BODY DİV
 *************************/
 
-.page-header {
-    background: #eee;
-    margin: 0;
-    padding: 25px 0;
-}
-
-.page-header h1 {
-    font-size: 40px;
-}
-
-/*************************
- HAKKIMIZDA
-*************************/
-
-#hakkimizda-body{
-    border:1px solid;
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: -20px;
-    margin-bottom: 30px;
-    background: white;
-    position: relative;
-    font-size: 16px;
-}
-
-#hakkimizda-body ul li ul {
-  font-size: 14px;
-}
-
-/*************************
- SİSTEM
-*************************/
-
-#sistem #sistem-body {
-    border:1px solid;
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: -20px;
-    margin-bottom: 30px;
-    background: white;
-    position: relative;
-    font-size: 16px;
-}
-
-/***********************
-CAROUSEL
-***********************/
-
-.carousel-inner{
-  width: 100%;
-  height: auto;
+#body{
+  border:1px solid;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: -30px;
   margin-bottom: -30px;
-}
-
-.carousel-caption{
-  text-align: center;
-}
-
-.carousel-inner .item img{
-  width: 100%;
+  background: white;
+  position: relative;
 }
 
 /***********************
 DENEME
 ***********************/
+
+#deneme .page-header{
+    background: #eee;
+    margin: 0;
+    padding: 25px 0;
+}
+
+#deneme .page-header h1 {
+    margin: 0;
+}
 
 #deneme .container {
     padding: 20px 15px;
@@ -215,11 +173,14 @@ DENEME
   resize: none;
   padding: 8px;
 }
-
-#deneme button {
-    float: right;
-    margin-top: 10px;
+#deneme button{
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+  background-color: #56a538;
+  color :white;
 }
+
 
 #deneme #part-1 button{
   background-color: #56a538;
@@ -280,44 +241,66 @@ DENEME
     padding: 5px;
 }
 
-/*************************
- ILETISIM
-*************************/
-
-#iletisim .row {
-    margin: 20px 0;
-}
-
-#iletisim .container {
-    padding: 0;
-}
 
 /*************************
- HAKKIMIZDA
+SLIDER
 *************************/
-.hakkimizda img{
-  border: 1px solid black;
-  border-radius: 50%;
+
+#thumbnail-preview-indicators {
+  position: relative;
+  overflow: hidden;
 }
-
-h3{
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+#thumbnail-preview-indicators .slides .slide-1,
+#thumbnail-preview-indicators .slides .slide-2,
+#thumbnail-preview-indicators .slides .slide-3 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-
-.text  {
-  border: 2 solid black;
-  background-color:  #ffff80;
-  padding: 25px;
-  margin-bottom: 50px;
-
+    #thumbnail-preview-indicators,
+    #thumbnail-preview-indicators .slides,
+    #thumbnail-preview-indicators .slides .slide-1,
+    #thumbnail-preview-indicators .slides .slide-2,
+    #thumbnail-preview-indicators .slides .slide-3 {
+      height: 480px;
+    }
+#thumbnail-preview-indicators .slides .slide-1 {
+  background-image: url("../images/slider.jpg");
 }
-
-.poem{
-  display:inline;
+#thumbnail-preview-indicators .slides .slide-2 {
+  background-image: url("../images/slider.jpg");
 }
-
+#thumbnail-preview-indicators .slides .slide-3 {
+  background-image: url("../images/slider.jpg");
+}
+#thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
+  top: 20%;
+  bottom: inherit;
+}
+#thumbnail-preview-indicators .carousel-indicators li,
+#thumbnail-preview-indicators .carousel-indicators li.active {
+  position: relative;
+  width: 100px;
+  height: 8px;
+}
+#thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  display: none;
+  opacity: 0;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -50px;
+}
+#thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
+#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail {
+  display: block;
+  opacity: .8;
+}
+#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
+  opacity: 1;
+}
 
 /*************************
  MEDIA QUERIES
@@ -330,6 +313,10 @@ h3{
     header#header .container .company-name { display: none; }
     header#header .container .menu .navbar .navbar-collapse { margin-top: 20px;}
     header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
-    .carousel-caption{ text-align: center; font-size: 10px; }
-    .carousel-caption h1{ font-size: 14px; }
+}
+
+@media screen and (max-width : 480px) {
+    #thumbnail-preview-indicators .carousel-indicators li,
+    #thumbnail-preview-indicators .carousel-indicators li.active { width: 50px; height: 8px; position: relative; }
+    #thumbnail-preview-indicators .carousel-indicators li > .thumbnail { width: 50px; left: 50%; margin-top: -50px; margin-left: -25px; }
 }
