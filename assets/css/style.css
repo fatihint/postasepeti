@@ -293,6 +293,33 @@ DENEME
 }
 
 /*************************
+ HAKKIMIZDA
+*************************/
+.hakkimizda img{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text  {
+  border: 2 solid black;
+  background-color:  #ffff80;
+  padding: 25px;
+  margin-bottom: 50px;
+
+}
+
+.poem{
+  display:inline;
+}
+
+
+/*************************
  MEDIA QUERIES
 *************************/
 

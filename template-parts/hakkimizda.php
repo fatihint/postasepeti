@@ -1,17 +1,32 @@
 <?php include '../header.php'; ?>
+    <title>HAKKIMIZDA</title>
 
-<div id="hakkimizda">
-    <div class="page-header text-center">
-        <h1>HAKKIMIZDA</h1>
-    </div>
-
-    <div class="container" id="hakkimizda-body">
-        <div class="col-sm-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
-</div>
+    <div class="hakkimizda">
+      <div class="container marketing">
+          <h3>POSTASEPETİ</h3>
+             <div class="row">
+               <div class="col-sm-3 col-xs-12">
+                 <img class="rounded-circle" src="../assets/images/mektup.jpg" alt="Generic placeholder image" width="240" height="240" >
+               </div>
+               <div class="col-sm-3 col-xs-12">
+                 <img class="rounded-circle" src="../assets/images/mektup.jpg" alt="Generic placeholder image"width="240" height="240">
+               </div>
+               <div class="col-sm-3 col-xs-12">
+                 <img class="rounded-circle" src="../assets/images/mektup.jpg" alt="Generic placeholder image" width="240" height="240">
+               </div>
+               <div class="col-sm-3 col-xs-12">
+                 <img class="rounded-circle" src="../assets/images/mektup.jpg" alt="Generic placeholder image" width="240" height="240">
+               </div>
+             </div>
+             <div class="row">
+                <div class="col-xs-12 text">
+                  <h4>POSTA SEPETİ</h4>
+                     <p class="col-sm-3 poem">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                     <p class="col-sm-3 poem">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                     <p class="col-sm-3 poem">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                     <p class="col-sm-3 poem">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                  </div>
+             </div>
+   </div>
 
 <?php include '../footer.php'; ?>
