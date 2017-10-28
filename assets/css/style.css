@@ -2,12 +2,12 @@
  HEADER
 **************************/
 
-header#header ul{
-    margin: 0;
+header#header {
+    margin-top: 10px;
 }
 
-header#header .container {
-    margin-top: 10px;
+header#header ul{
+    margin: 0;
 }
 
 header#header .container .company-name {
@@ -126,23 +126,53 @@ header#header .sprite {
 }
 
 /*************************
- BODY DİV
+ GLOBAL
 *************************/
 
-#body{
-  border:1px solid;
-  border-radius: 8px;
-  padding: 10px;
-  margin-top: -30px;
-  margin-bottom: -30px;
-  background: white;
-  position: relative;
-  font-size: 16px;
+.page-header {
+    background: #eee;
+    margin: 0;
+    padding: 25px 0;
 }
 
-#body ul li ul {
+.page-header h1 {
+    font-size: 40px;
+}
+
+/*************************
+ HAKKIMIZDA
+*************************/
+
+#hakkimizda-body{
+    border:1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background: white;
+    position: relative;
+    font-size: 16px;
+}
+
+#hakkimizda-body ul li ul {
   font-size: 14px;
 }
+
+/*************************
+ SİSTEM
+*************************/
+
+#sistem #sistem-body {
+    border:1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background: white;
+    position: relative;
+    font-size: 16px;
+}
+
 /***********************
 CAROUSEL
 ***********************/
@@ -150,7 +180,6 @@ CAROUSEL
 .carousel-inner{
   width: 100%;
   height: auto;
-  margin-top: -30px;
   margin-bottom: -30px;
 }
 
@@ -165,16 +194,6 @@ CAROUSEL
 /***********************
 DENEME
 ***********************/
-
-#deneme .page-header{
-    background: #eee;
-    margin: 0;
-    padding: 25px 0;
-}
-
-#deneme .page-header h1 {
-    margin: 0;
-}
 
 #deneme .container {
     padding: 20px 15px;
@@ -196,14 +215,82 @@ DENEME
   resize: none;
   padding: 8px;
 }
-#deneme button{
-  float: right;
-  margin-right: 15px;
-  margin-top: 10px;
+
+#deneme button {
+    float: right;
+    margin-top: 10px;
+}
+
+#deneme #part-1 button{
   background-color: #56a538;
+  margin-right: 15px;
   color :white;
 }
 
+#deneme #part-3 button{
+    float: left;
+}
+
+#deneme #part-2 {
+    display: none;
+}
+
+#deneme #part-3 {
+    display: none;
+}
+
+#deneme #part-2 .part-2-col {
+    padding: 0 25px;
+}
+
+#deneme #part-2 p.label-title {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#deneme #part-2 p.label-desc {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#deneme #part-2 .input-group {
+    width: 100%;
+    padding: 5px 0;
+}
+
+#deneme #part-2 .input-group input {
+    padding: 5px;
+    width: 100%;
+}
+
+#deneme #part-2 textarea{
+    height: 80px;
+}
+
+#deneme #part-3 p.info {
+    font-size: 20px;
+}
+
+#deneme #part-3 .input-group {
+    margin: 10px 0;
+}
+
+#deneme #part-3 .input-group input{
+    padding: 5px;
+}
+
+/*************************
+ ILETISIM
+*************************/
+
+#iletisim .row {
+    margin: 20px 0;
+}
+
+#iletisim .container {
+    padding: 0;
+}
 
 /*************************
  MEDIA QUERIES
@@ -219,6 +306,3 @@ DENEME
     .carousel-caption{ text-align: center; font-size: 10px; }
     .carousel-caption h1{ font-size: 14px; }
 }
-/*************************
- iletisim page
-*************************/

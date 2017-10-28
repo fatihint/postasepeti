@@ -44,7 +44,4 @@
                     </ul>
                 </div>
             </div>
-            <div class="after-header">
-
-            </div>
         </header>
