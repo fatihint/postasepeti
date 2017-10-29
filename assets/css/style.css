@@ -96,6 +96,35 @@ header#header .images-menu {
 header#header .images-menu .container {
     line-height: 100px;
 }
+header#header .images-menu .container img{
+    display: inline;
+}
+
+
+header#header .images-menu .container .ok{
+    height: 35px;
+    width: 35px;
+}
+header#header .images-menu .container #buton{
+  height: 161px;
+  width: 183px;
+  position: relative;
+  top: 32px;
+}
+header#header .images-menu .container #okeopost{
+  height: 120px;
+  width: 335px;
+}
+header#header .images-menu .container #ptt{
+  height: 106px;
+  width: 143px;
+}
+header#header .images-menu .container #postaci{
+  height: 200px;
+  width: 226px;
+  position: relative;
+  top: -39px;
+}
 
 header#header .after-header{
     height: 90px;
@@ -290,26 +319,37 @@ DENEME
 
 #iletisim .container {
     padding: 0;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background: white;
+    position: relative;
+    font-size: 16px;
 }
-
 /*************************
  HAKKIMIZDA
 *************************/
+
+h1{
+    font-size: 40px;
+}
+
+.row{
+    margin-right: 12px;
+    margin-left: 10px;
+    margin-top: 27px;
+}
 
 .hakkimizda img{
   border: 1px solid black;
   border-radius: 50%;
 }
 
-h3{
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-}
-
 .text  {
   border: 2 solid black;
-  background-color:  #ffff80;
+  background-color:  #fffbd6;
   padding: 25px;
   margin-bottom: 50px;
 
@@ -367,6 +407,13 @@ h3{
 /*************************
  MEDIA QUERIES
 *************************/
+@media screen and (max-width: 1088px) {
+    header#header .images-menu .container .ok{      height: 20px;  width: 18px;   }
+    header#header .images-menu .container #buton{    height: 106px;width: 108px; position: static;}
+    header#header .images-menu .container #okeopost{      height: 58px;  width: 138px;}
+    header#header .images-menu .container #ptt{         height: 63px;width: 77px; }
+    header#header .images-menu .container #postaci{        height: 159px;  width: 191px; position: static;}
+}
 
 @media screen and (max-width: 768px) {
     header#header .container .company-name h1{ font-size: 26px;}
@@ -377,4 +424,9 @@ h3{
     header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
     .carousel-caption{ text-align: center; font-size: 10px; }
     .carousel-caption h1{ font-size: 14px; }
+    header#header .images-menu .container .ok{  height: 14px; width: 16px;   }
+    header#header .images-menu .container #buton{ height: 56px; width: 87px; position: static;}
+    header#header .images-menu .container #okeopost{      height: 50px; width: 50px;}
+    header#header .images-menu .container #ptt{        height: 44px;  width: 50px; }
+    header#header .images-menu .container #postaci{    height: 119px;  width: 134px; position: static;}
 }

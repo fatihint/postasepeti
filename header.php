@@ -40,7 +40,14 @@
             <div class="images-menu">
                 <div class="container">
                     <ul class="list-unstyle list-inline">
-                        <li><button type="button" class="btn btn-primary btn-lg">Large button</button></li>
+                        <li><img id="buton"src="../assets/images/buton.png" alt=""></li>
+                        <li><img class="ok" src="../assets/images/ok.png" alt=""></li>
+                        <li><img id="okeopost"src="../assets/images/okeopost.png" alt=""></li>
+                        <li><img class="ok" src="../assets/images/ok.png" alt=""></li>
+                        <li><img id="ptt"src="../assets/images/ptt.png" alt=""></li>
+                        <li><img class="ok" src="../assets/images/ok.png" alt=""></li>
+                        <li><img id="postaci"src="../assets/images/postaci.png" alt=""></li>
+
                     </ul>
                 </div>
             </div>
