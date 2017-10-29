@@ -1,6 +1,3 @@
-function myTrim(x) {
-    return x.replace(/^\s+|\s+$/gm,'');
-}
 $(document).ready(function(){
     $("#part-1-submit").on("click", function() {
       var alici = $("#alici").val().trim();
