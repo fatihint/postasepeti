@@ -4,7 +4,7 @@
     <div class="page-header text-center">
         <h1>FİRMAMIZIN SATIŞ TEMSİLCİLERİ</h1>
     </div>
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <div class="col-sm-4">
                 <h2>Eren KARA</h2 >
