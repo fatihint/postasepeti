@@ -24,13 +24,13 @@
                     </div>
                 </div>
                 <hr>
-                &emsp;&emsp;Merhaba: <input type="text" name="alici" placeholder="Arkadaşınıza hitabınız">
+                &emsp;&emsp;Merhaba: <input type="text" name="alici" id="alici" placeholder="Arkadaşınıza hitabınız">
 
                 <div class="row">
                     <div class="col-xs-12">
                         <p>Bu mektubu ve şiiri, hem seni biraz gülümsetmek hem de Türkiye'de hizmete yeni başlayan <b>Oekopost Hibrit Posta Sistemi</b>'nin hızını ve kalitesini denemek için yazıyorum.</p>
                         <p>Bu mektup adresine teslim edildiğinde, beni telefon yada mail ile haberdar eder misin?<br>Bakalım dedikleri kadar hızlı mı? Kullandıkları kağıt ve baskı kalitesi nasıl?</p>
-                        <textarea name="mektup" placeholder="Özel Mesaj 'istediğinizi yazabilirsiniz ancak arkadaşınızın eline geçeceğini unutmayın. Yazdığınız yazının bütün hukuki sorumluluğu yazan kişiye aittir.(max 1000 karakter)" maxlength="1000"></textarea>
+                        <textarea name="mektup" id="mektup" placeholder="Özel Mesaj 'istediğinizi yazabilirsiniz ancak arkadaşınızın eline geçeceğini unutmayın. Yazdığınız yazının bütün hukuki sorumluluğu yazan kişiye aittir.(max 1000 karakter)" maxlength="1000"></textarea>
                     </div>
                     <button id="part-1-submit" type="submit" class="btn btn-default">Gönder</button>
                 </div>
@@ -41,34 +41,34 @@
                     <h2 class="text-center">Zarfa Basilacak Bilgiler</h2>
                     <p class="label-title">Gonderici</p>
                     <div class="input-group">
-                        <input type="text" name="" value="" placeholder="Adı Soyadı">
+                        <input type="text" name="gonderici-isim" id="gonderici-isim" value="" placeholder="Adı Soyadı" required>
                     </div>
                     <div class="input-group">
-                        <textarea name="name" placeholder="Adresi" maxlength="180"></textarea>
+                        <textarea name="gonderici-mail" id="gonderici-mail" placeholder="E-Posta Adresi" maxlength="180"></textarea>
                     </div>
                     <p class="label-title">Alici</p>
                     <div class="input-group">
-                        <input type="text" name="" value="" placeholder="Adı Soyadı">
+                        <input type="text" name="alici-isim" id="alici-isim" value="" placeholder="Adı Soyadı" required>
                     </div>
                     <div class="input-group">
-                        <textarea name="name" placeholder="Adresi" maxlength="180"></textarea>
+                        <textarea name="alici-mail" id="alici-mail" placeholder="E-Posta Adresi" maxlength="180"></textarea>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6 part-2-col">
                     <h2 class="text-center">İletişim Bilgileri</h2>
                     <p class="label-title">Gonderici</p>
                     <div class="input-group">
-                        <input type="text" name="" value="" placeholder="Adı Soyadı">
+                        <input type="text" name="gonderici-isim" id="gonderici-isim-2" value="" placeholder="Adı Soyadı" required>
                     </div>
                     <div class="input-group">
-                        <input type="text" name="" value="" placeholder="Adresi">
+                        <input type="text" name="gonderici-adres" id="gonderici-adres" value="" placeholder="Adresi" required>
                     </div>
                     <p class="label-title">Alici</p>
                     <div class="input-group">
-                        <input type="text" name="" value="" placeholder="Adı Soyadı">
+                        <input type="text" name="alici-isim" id="alici-isim-2" value="" placeholder="Adı Soyadı" required>
                     </div>
                     <div class="input-group">
-                        <input type="text" name="" value="" placeholder="Adresi">
+                        <input type="text" name="alici-adres" id="alici-adres" value="" placeholder="Adresi" required>
                     </div>
                     <p class="label-desc">Bu deneme mektubunda gerekli boşlukları dilediğiniz gibi doldurabilirsiniz. Mektubun, renkli olarak basılıp, zarflanıp, kapatılarak, PTT eli ile yazdığınız arkadaşınızın adresine gideceğini düşünerek, adres ve kişi bilgilerinin doğru olması gerektiğini hatırlatırız. Her türlü yasal sorumluluk size aittir.</p>
                     <span><b>Tarih:</b> <?php echo date('d/m/Y'); ?> </span>
@@ -85,12 +85,12 @@
                     <hr>
                     <p>www.oekopost.com adresinde geçici deneme hesabı açılması için lütfen bir kullanıcı adı ve geçici şifre belirleyiniz. Daimi hesap açmak istediğinizde şifrenizi değiştirebilirsiniz ancak kullanıcı adınız aynı kalır.</p>
                     <div class="input-group">
-                        <input type="text" name="" value="" placeholder="Kullanici Adi">
+                        <input type="text" name="kullanici-adi" id="kullanici-adi" value="" placeholder="Kullanici Adi" required>
                     </div>
                     <div class="input-group">
-                        <input type="password" name="" value="" placeholder="Gecici Sifre">
+                        <input type="password" name="password" id="password" value="" placeholder="Gecici Parola" required>
                     </div>
-                    <button type="submit" class="btn btn-default">Kaydet</button>
+                    <button id="submit" type="submit" class="btn btn-default">Kaydet</button>
                 </div>
             </div>
 
