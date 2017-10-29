@@ -39,7 +39,9 @@
             </div>
             <div class="images-menu">
                 <div class="container">
+                  <div class="col-xs-12">
                     <ul class="list-unstyle list-inline">
+<<<<<<< HEAD
                         <li><img id="buton"src="../assets/images/buton.png" alt=""></li>
                         <li><img class="ok" src="../assets/images/ok.png" alt=""></li>
                         <li><img id="okeopost"src="../assets/images/okeopost.png" alt=""></li>
@@ -48,7 +50,11 @@
                         <li><img class="ok" src="../assets/images/ok.png" alt=""></li>
                         <li><img id="postaci"src="../assets/images/postaci.png" alt=""></li>
 
+=======
+                      <li><button class="btn btn-hero btn-lg" role="button">Deneme</button></li>
+>>>>>>> d6a54d782a1caf9109af33ccc1519dffaf07d6e3
                     </ul>
+                  </div>
                 </div>
             </div>
         </header>

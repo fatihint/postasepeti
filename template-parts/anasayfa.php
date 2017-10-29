@@ -4,51 +4,55 @@
 
 ?>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <!-- Indicators -->
-     <ol class="carousel-indicators">
-       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-       <li data-target="#myCarousel" data-slide-to="1"></li>
-       <li data-target="#myCarousel" data-slide-to="2"></li>
-     </ol>
-     <div class="carousel-inner" role="listbox">
-       <div class="item active" align="center" >
-         <img class="first-slide" src="http://akademi.nefesyayinevi.com/wp-content/uploads/2015/11/sehidemektup.jpg" alt="First slide">
-         <div class="container">
-           <div class="carousel-caption">
-             <h1>Example headline.</h1>
-             <p>Note: If you're viewing thi and left and right might not load/display properly due to web browser security rules.</p>
-           </div>
-         </div>
-       </div>
-       <div class="item" align="center">
-         <img class="second-slide" src="http://akademi.nefesyayinevi.com/wp-content/uploads/2015/11/sehidemektup.jpg" alt="Second slide">
-         <div class="container">
-           <div class="carousel-caption">
-             <h1>Another example headline.</h1>
-             <p>Cras justo odio, dapibus ac facilisis in, n mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-           </div>
-         </div>
-       </div>
-       <div class="item" align="center">
-         <img class="third-slide" src="http://akademi.nefesyayinevi.com/wp-content/uploads/2015/11/sehidemektup.jpg" alt="Third slide">
-         <div class="container" >
-           <div class="carousel-caption">
-             <h1>One more for good measure.</h1>
-             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-           </div>
-         </div>
-       </div>
-     </div>
-     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-       <span class="sr-only">Previous</span>
-     </a>
-     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-       <span class="sr-only">Next</span>
-     </a>
-   </div>
+<div id="thumbnail-preview-indicators" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#thumbnail-preview-indicators" data-slide-to="0" class="active">
+
+            </li>
+            <li data-target="#thumbnail-preview-indicators" data-slide-to="1">
+
+            </li>
+            <li data-target="#thumbnail-preview-indicators" data-slide-to="2">
+
+            </li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item slides active">
+              <div class="slide-1"></div>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Biz yaratıcıyız.</h1>
+                  <h3>Hibrit posta sistemi Türkiye'de.</h3>
+                  <p><a class="btn btn-lg btn-primary" href="hakkimizda.php" role="button">Biz Kimiz?</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item slides">
+              <div class="slide-2"></div>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Biz zekiyiz.</h1>
+                  <h3>Bu harika sistemi farkedin.</h3>
+                  <p><a class="btn btn-lg btn-primary" href="sistem.php" role="button">Daha Fazla!</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item slides">
+              <div class="slide-3"></div>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Biz inanılmazız.</h1>
+                  <h3>Denemek için tıklayınız.</h3>
+                  <p><a class="btn btn-lg btn-primary" href="deneme.php" role="button">Sistemi Dene!</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#thumbnail-preview-indicators" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a class="right carousel-control" href="#thumbnail-preview-indicators" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+
 <?php
 
     include '../footer.php';
