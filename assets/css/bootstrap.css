@@ -4,6 +4,54 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*************************
+ PDF
+*************************/
+
+#pdf .header-row {
+    padding: 0 !important;
+}
+
+#pdf .row {
+    padding: 15px;
+}
+
+#pdf .section-row {
+    padding: 10px 30px;
+}
+
+#pdf .info-row h5{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#pdf .info-row p{
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+#pdf .info-row .date {
+    margin-top: 10px;
+}
+
+#pdf .content-row p{
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+#pdf .content-row .message{
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 7px;
+    min-height: 120px;
+}
+
+#pdf .footer-row {
+    padding-top: 25px !important;
+    padding-bottom: 0 !important;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;

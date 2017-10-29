@@ -295,6 +295,7 @@ DENEME
 /*************************
  HAKKIMIZDA
 *************************/
+
 .hakkimizda img{
   border: 1px solid black;
   border-radius: 50%;
@@ -318,6 +319,50 @@ h3{
   display:inline;
 }
 
+/*************************
+ PDF
+*************************/
+
+#pdf #header {
+    margin-bottom: 20px;
+}
+
+#pdf .header-row {
+    padding: 0;
+}
+
+#pdf .row {
+    padding: 15px;
+}
+
+#pdf .section-row {
+    padding: 0 45px;
+}
+
+#pdf .info-row h5{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#pdf .info-row p{
+    font-size: 14px;
+}
+
+#pdf .info-row .date {
+    margin-top: 10px;
+}
+
+#pdf .content-row p{
+    font-size: 18px;
+}
+
+#pdf .content-row .message{
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 7px;
+    min-height: 200px;
+}
 
 /*************************
  MEDIA QUERIES
