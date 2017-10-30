@@ -41,14 +41,19 @@
 }
 
 #pdf .content-row .message{
-    border: 1px solid black;
     font-size: 13px;
+}
+
+#pdf .content-row .message-container{
+    border: 1px solid black;
     padding: 7px;
-    min-height: 120px;
+    min-height: 190px !important;
+    width: 100%;
 }
 
 #pdf .footer-row {
     padding-top: 25px !important;
+    margin-top: 15px;
     padding-bottom: 0 !important;
 }
 

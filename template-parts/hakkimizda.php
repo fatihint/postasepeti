@@ -3,7 +3,7 @@
       <div class="page-header text-center">
         <h1>HAKKIMIZDA</h1>
       </div>
-      <div class="container marketing  " id="hakkimizda-body">
+      <div class="container marketing" id="hakkimizda-body">
              <div class="row">
                <div class="col-sm-4 col-xs-12">
                  <img class="rounded-circle" src="../assets/images/mektup.jpg" alt="Generic placeholder image" width="100%" >

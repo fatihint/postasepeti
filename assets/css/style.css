@@ -155,6 +155,54 @@ header#header .sprite {
 }
 
 /*************************
+ GLOBAL
+*************************/
+
+.page-header {
+    background: #eee;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.page-header h1 {
+    font-size: 40px;
+}
+
+/*************************
+ HAKKIMIZDA
+*************************/
+
+#hakkimizda-body{
+    border:1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background: white;
+    position: relative;
+    font-size: 16px;
+}
+
+#hakkimizda-body ul li ul {
+  font-size: 14px;
+}
+
+/*************************
+ SİSTEM
+*************************/
+
+#sistem #sistem-body {
+    border:1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background: white;
+    position: relative;
+    font-size: 16px;
+}
+
+/*************************
  BODY DİV
 *************************/
 
@@ -270,7 +318,6 @@ DENEME
     padding: 5px;
 }
 
-<<<<<<< HEAD
 /*************************
  ILETISIM
 *************************/
@@ -310,7 +357,7 @@ h1{
 }
 
 .text  {
-  border: 2 solid black;
+  border: 2px solid black;
   background-color:  #fffbd6;
   padding: 25px;
   margin-bottom: 50px;
@@ -430,6 +477,7 @@ h1{
 /*************************
  MEDIA QUERIES
 *************************/
+
 @media screen and (max-width: 1088px) {
     header#header .images-menu .container .ok{      height: 20px;  width: 18px;   }
     header#header .images-menu .container #buton{    height: 106px;width: 108px; position: static;}
@@ -444,7 +492,7 @@ h1{
     header#header .container .menu .navbar .navbar-header .navbar-brand{ display: block; }
     header#header .container .company-name { display: none; }
     header#header .container .menu .navbar .navbar-collapse { margin-top: 20px;}
-header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
+    header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
     .carousel-caption{ text-align: center; font-size: 10px; }
     .carousel-caption h1{ font-size: 14px; }
     header#header .images-menu .container .ok{  height: 14px; width: 16px;   }
@@ -452,7 +500,6 @@ header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
     header#header .images-menu .container #okeopost{      height: 50px; width: 50px;}
     header#header .images-menu .container #ptt{        height: 44px;  width: 50px; }
     header#header .images-menu .container #postaci{    height: 119px;  width: 134px; position: static;}
-
 }
 
 @media screen and (max-width : 480px) {
