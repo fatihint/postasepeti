@@ -1,5 +1,23 @@
 $(document).ready(function(){
 
+    function timer() {
+        var currentdate = new Date();
+        var hour = currentdate.getHours();
+
+        function addZero(i) {
+            if (i<10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+        $("#date-span").html("<b>Tarih: </b>" + addZero(currentdate.getDate()) + "/" + (currentdate.getMonth()+1)  + "/" + currentdate.getFullYear());
+        $("#hour-span").html("<b>Saat: </b>" + addZero(currentdate.getHours()) + ":" + addZero(currentdate.getMinutes()));
+        setTimeout(timer,5000);
+    }
+
+    timer();
+
+
     var userData = [];
 
     $("#part-1-submit").on("click", function() {
@@ -30,6 +48,7 @@ $(document).ready(function(){
         var aliciadres = $("#alici-adres").val().trim();
         var uniqid = $("#uniqid").val();
         var channel = $("input[name=kanal]:checked").val()
+        var token = $("input[name=token]").val();
 
         if (gondericiisim.length > 0 && gondericimail.length > 0 && aliciisim.length > 0 && alicimail.length > 0 && gondericitelefon.length > 0 && gondericiadres.length > 0 && alicitelefon.length > 0 && aliciadres.length > 0 ) {
 
@@ -40,7 +59,8 @@ $(document).ready(function(){
                 data: {
                     userData,
                     uniqid,
-                    channel
+                    channel,
+                    token
                 },
                 success:function(response) {
                     $("#part-2").css({

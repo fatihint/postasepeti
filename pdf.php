@@ -1,8 +1,22 @@
 <?php
 
+
+    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || empty($_SERVER['HTTP_X_REQUESTED_WITH']) || strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest')
+    {
+        header('Location: template-parts/deneme.php');
+        die;
+    }
+
+    if (!isset($_POST['token']) || $_POST['token'] != $_SESSION['token']) {
+        header('Location: template-parts/deneme.php');
+        die;
+    }
+
     require 'vendor/autoload.php';
 
     use Knp\Snappy\Pdf;
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
 
     $snappy = new Pdf('/var/www/html/postasepeti/vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64');
     $snappy->setOption('user-style-sheet', 'assets/css/bootstrap.css');
@@ -74,34 +88,6 @@
     $filename = $uniq . '.pdf';
     $snappy->generateFromHtml($html, '/var/www/html/postasepeti/pdfdir/'.$filename);
 
-    $file = 'pdfdir/'. $filename;
-    $content = file_get_contents($file);
-    $content = chunk_split(base64_encode($content));
-    $uid = md5(uniqid(time()));
-    $name = basename($file);
-
-    $from_name = $userData[2];
-    $from_mail = $userData[7];
-
-    // header
-    $header = "From: ".$from_name." <".$from_mail.">\r\n";
-    // $header .= "Reply-To: ".$replyto."\r\n";
-    $header .= "MIME-Version: 1.0\r\n";
-    $header .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
-
-    $message = "POSTA SEPETI YENI MEKTUP ISTEGI";
-    // message & attachment
-    $nmessage = "--".$uid."\r\n";
-    $nmessage .= "Content-type:text/plain; charset=iso-8859-1\r\n";
-    $nmessage .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
-    $nmessage .= $message."\r\n\r\n";
-    $nmessage .= "--".$uid."\r\n";
-    $nmessage .= "Content-Type: application/octet-stream; name=\"".$filename."\"\r\n";
-    $nmessage .= "Content-Transfer-Encoding: base64\r\n";
-    $nmessage .= "Content-Disposition: attachment; filename=\"".$filename."\"\r\n\r\n";
-    $nmessage .= $content."\r\n\r\n";
-    $nmessage .= "--".$uid."--";
-
     switch ($channel) {
         case "1":
             $channel = "fatihint@gmail.com";
@@ -126,12 +112,34 @@
             break;
     }
 
-    $subject = "POSTASEPETI YENI MEKTUP";
+    $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+    try {
+        //Server settings
+        $mail->isSMTP();                                      // Set mailer to use SMTP
+        $mail->Host = 'smtp.live.com';  // Specify main and backup SMTP servers
+        $mail->SMTPAuth = true;                               // Enable SMTP authentication
+        $mail->Username = 'abaranozoglu@hotmail.com';                 // SMTP username
+        $mail->Password = 'asd00001713@';                           // SMTP password
+        $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+        $mail->Port = 587;                                    // TCP port to connect to
 
-    if (mail($channel, $subject, $nmessage, $header)) {
-        echo "OK";
-    } else {
-        echo "NO";
+        //Recipients
+        $mail->setFrom('abaranozoglu@hotmail.com', 'PostaSepeti');
+        $mail->addAddress($channel);               // Name is optional
+
+        //Attachments
+        $mail->addAttachment('/var/www/html/postasepeti/pdfdir/'.$filename);         // Add attachments
+
+        //Content
+        $mail->isHTML(true);                                  // Set email format to HTML
+        $mail->Subject = 'Yeni Mektup';
+        $mail->Body    = 'PostaSepeti\'nden yeni bir mektup var.';
+        $mail->AltBody = 'PostaSepeti\'nden yeni bir mektup var.';
+
+        $mail->send();
+    } catch (Exception $e) {
+        echo 'Message could not be sent.';
+        echo 'Mailer Error: ' . $mail->ErrorInfo;
     }
 
 ?>

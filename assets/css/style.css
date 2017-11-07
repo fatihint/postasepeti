@@ -2,12 +2,12 @@
  HEADER
 **************************/
 
-header#header ul{
-    margin: 0;
+header#header {
+    margin-top: 10px;
 }
 
-header#header .container {
-    margin-top: 10px;
+header#header ul{
+    margin: 0;
 }
 
 header#header .container .company-name {
@@ -100,30 +100,34 @@ header#header .images-menu .container img{
     display: inline;
 }
 
-
 header#header .images-menu .container .ok{
-    height: 35px;
-    width: 35px;
+  height: 35px;
+  width: 35px;
+  margin: 15px;
 }
+
 header#header .images-menu .container #buton{
   height: 161px;
   width: 183px;
-  position: relative;
-  top: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
 header#header .images-menu .container #okeopost{
-  height: 120px;
+  height: 102px;
   width: 335px;
 }
+
 header#header .images-menu .container #ptt{
-  height: 106px;
-  width: 143px;
+  height: 103px;
+  width: 109px;
 }
+
 header#header .images-menu .container #postaci{
-  height: 200px;
-  width: 226px;
-  position: relative;
-  top: -39px;
+  height: 239px;
+  width: 248px;
+  position: absolute;
+  top: 112px;
 }
 
 header#header .after-header{
@@ -480,10 +484,10 @@ h1{
 
 @media screen and (max-width: 1088px) {
     header#header .images-menu .container .ok{      height: 20px;  width: 18px;   }
-    header#header .images-menu .container #buton{    height: 106px;width: 108px; position: static;}
+    header#header .images-menu .container #buton{    height: 106px;width: 108px;}
     header#header .images-menu .container #okeopost{      height: 58px;  width: 138px;}
     header#header .images-menu .container #ptt{         height: 63px;width: 77px; }
-    header#header .images-menu .container #postaci{        height: 159px;  width: 191px; position: static;}
+    header#header .images-menu .container #postaci{        height: 159px;  width: 191px; }
 }
 
 @media screen and (max-width: 768px) {
@@ -495,11 +499,12 @@ h1{
     header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
     .carousel-caption{ text-align: center; font-size: 10px; }
     .carousel-caption h1{ font-size: 14px; }
-    header#header .images-menu .container .ok{  height: 14px; width: 16px;   }
-    header#header .images-menu .container #buton{ height: 56px; width: 87px; position: static;}
+    header#header .images-menu .container .ok{  height: 14px; width: 16px; margin: auto; }
+    header#header .images-menu .container #buton{ height: 56px; width: 61px; }
     header#header .images-menu .container #okeopost{      height: 50px; width: 50px;}
     header#header .images-menu .container #ptt{        height: 44px;  width: 50px; }
-    header#header .images-menu .container #postaci{    height: 119px;  width: 134px; position: static;}
+    header#header .images-menu .container #postaci{    height: 105px;  width: 50px; position: relative; top:0;}
+    header#header .images-menu .container .list-inline > li{ padding-right: 0; padding-left:0;}
 }
 
 @media screen and (max-width : 480px) {

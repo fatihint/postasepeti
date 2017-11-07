@@ -1,5 +1,13 @@
 <?php include '../header.php'; ?>
 
+<?php
+
+    if(empty($_SESSION['token'])) {
+        $_SESSION['token'] = md5(uniqid(rand(), true));
+    }
+?>
+
+
 <div id="deneme">
     <div class="page-header text-center">
         <h1>DENEME</h1>
@@ -71,9 +79,11 @@
                         <input type="text" name="alici-mail" id="alici-mail" value="" placeholder="E-Posta Adresi" required>
                     </div>
                     <p class="label-desc">Bu deneme mektubunda gerekli boşlukları dilediğiniz gibi doldurabilirsiniz. Mektubun, renkli olarak basılıp, zarflanıp, kapatılarak, PTT eli ile yazdığınız arkadaşınızın adresine gideceğini düşünerek, adres ve kişi bilgilerinin doğru olması gerektiğini hatırlatırız. Her türlü yasal sorumluluk size aittir.</p>
-                    <span><b>Tarih:</b> <?php echo date('d/m/Y'); ?> </span>
-                    <span><b>Saat: </b> <?php echo date("H:i") ?></span>
+                    <span id="date-span"><b>Tarih:</b>  </span>
+                    <span id="hour-span"><b>Saat: </b>  </span>
                     <input type="hidden" name="" id="uniqid" value="<?php echo uniqid(); ?>">
+                    <input type="hidden" name="token" id="uniqid" value="<?php echo $_SESSION['token'] ?>">
+
                     <button id="part-2-submit" type="submit" class="btn btn-default">Gönder</button>
                 </div>
             </div>

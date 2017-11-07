@@ -24,7 +24,6 @@
                           </button>
                           <a class="navbar-brand" href="#">PostaSepeti</a>
                         </div>
-
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li><a href="anasayfa.php">Ana Sayfa</a></li>
@@ -39,7 +38,6 @@
             </div>
             <div class="images-menu">
                 <div class="container">
-                  <div class="col-xs-12">
                     <ul class="list-unstyle list-inline">
                         <li><img id="buton"src="../assets/images/buton.png" alt=""></li>
                         <li><img class="ok" src="../assets/images/ok.png" alt=""></li>
@@ -48,8 +46,8 @@
                         <li><img id="ptt"src="../assets/images/ptt.png" alt=""></li>
                         <li><img class="ok" src="../assets/images/ok.png" alt=""></li>
                         <li><img id="postaci"src="../assets/images/postaci.png" alt=""></li>
+
                     </ul>
-                  </div>
                 </div>
             </div>
         </header>
