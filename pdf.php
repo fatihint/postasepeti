@@ -1,14 +1,15 @@
 <?php
 
+    session_start();
 
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || empty($_SERVER['HTTP_X_REQUESTED_WITH']) || strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest')
     {
-        header('Location: template-parts/deneme.php');
+        header('Location: deneme.php');
         die;
     }
 
     if (!isset($_POST['token']) || $_POST['token'] != $_SESSION['token']) {
-        header('Location: template-parts/deneme.php');
+        header('Location: deneme.php');
         die;
     }
 
@@ -85,7 +86,7 @@
                 </body>
                 </html>';
 
-    $filename = $uniq . '.pdf';
+    $filename = 'mektup_' . $uniq . '.pdf';
     $snappy->generateFromHtml($html, '/var/www/html/postasepeti/pdfdir/'.$filename);
 
     switch ($channel) {
@@ -116,15 +117,15 @@
     try {
         //Server settings
         $mail->isSMTP();                                      // Set mailer to use SMTP
-        $mail->Host = 'smtp.live.com';  // Specify main and backup SMTP servers
+        $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'abaranozoglu@hotmail.com';                 // SMTP username
-        $mail->Password = 'asd00001713@';                           // SMTP password
+        $mail->Username = 'postasepetiofficial@gmail.com';                 // SMTP username
+        $mail->Password = 'vaneo94@';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                    // TCP port to connect to
 
         //Recipients
-        $mail->setFrom('abaranozoglu@hotmail.com', 'PostaSepeti');
+        $mail->setFrom('postasepetiofficial@gmail.com', 'PostaSepeti');
         $mail->addAddress($channel);               // Name is optional
 
         //Attachments

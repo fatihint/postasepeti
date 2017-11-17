@@ -17,7 +17,6 @@ $(document).ready(function(){
 
     timer();
 
-
     var userData = [];
 
     $("#part-1-submit").on("click", function() {
@@ -50,6 +49,8 @@ $(document).ready(function(){
         var channel = $("input[name=kanal]:checked").val()
         var token = $("input[name=token]").val();
 
+        if(isPhone(alicitelefon) && isPhone(gondericitelefon)){
+        if(isEmail(alicimail) && isEmail(gondericimail)){
         if (gondericiisim.length > 0 && gondericimail.length > 0 && aliciisim.length > 0 && alicimail.length > 0 && gondericitelefon.length > 0 && gondericiadres.length > 0 && alicitelefon.length > 0 && aliciadres.length > 0 ) {
 
             userData.push(gondericiisim,gondericiadres,aliciisim,aliciadres,gondericitelefon,gondericimail,alicitelefon,alicimail);
@@ -76,6 +77,14 @@ $(document).ready(function(){
         else{
             alert("Bütün alanları doldurunuz.");
         }
+    }
+    else{
+        alert("Lütfen geçerli bir email giriniz.");
+    }
+    }
+    else {
+        alert("Lütfen geçerli bir telefon numarası giriniz.");
+    }
     });
 
     $("#submit").on("click", function() {
@@ -89,3 +98,35 @@ $(document).ready(function(){
         }
     });
 });
+
+
+
+function isEmail(email) {
+  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return regex.test(email);
+}
+
+function isPhone(phone) {
+  var regex =/^(05)[0-9][0-9][1-9]([0-9]){6}$/;
+  return regex.test(phone);
+}
+/*
+
+    if($_POST['g-recaptcha-response']))
+                $captcha=$_POST['g-recaptcha-response'];
+
+              if(!$captcha){
+                header("Location: ../../people.php?durum=no");
+                exit();
+              }
+              $response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=YOUR SECRET KEY&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
+              if($response['success'] == false)
+              {
+                header("Location: ../../people.php?durum=no");
+              }
+              else
+              {
+                header("Location: ../../people.php?durum=ok");
+              }
+
+*/
