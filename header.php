@@ -32,11 +32,11 @@
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li><a href="index.php">Ana Sayfa</a></li>
-                                <li><a href="hakkimizda.php">Hakkımızda</a></li>
-                                <li><a href="sistem.php">Sistem</a></li>
-                                <li><a href="deneme.php">Deneme</a></li>
-                                <li><a href="iletisim.php">İletişim</a></li>
+                                <li><a href="anasayfa">Ana Sayfa</a></li>
+                                <li><a href="hakkimizda">Hakkımızda</a></li>
+                                <li><a href="sistem">Sistem</a></li>
+                                <li><a href="deneme">Deneme</a></li>
+                                <li><a href="iletisim">İletişim</a></li>
                             </ul>
                         </div>
                     </nav>

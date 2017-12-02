@@ -19,7 +19,7 @@
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
-    $snappy = new Pdf('/var/www/html/postasepeti/vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64');
+    $snappy = new Pdf('/var/www/html/vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64');
     $snappy->setOption('user-style-sheet', 'assets/css/bootstrap.css');
 
     foreach ($_POST['userData'] as $input) {
@@ -43,7 +43,7 @@
                     <div class="container" id="pdf">
                         <div class="row header-row">
                             <div class="col-xs-12" id="header">
-                                <img src="http://localhost/postasepeti/assets/images/pdflogo.png" width="100%" alt="">
+                                <img src="http://165.227.171.218/assets/images/pdflogo.png" width="100%" alt="">
                             </div>
                         </div>
                         <div class="row">
@@ -79,7 +79,7 @@
 
                         <div class="row footer-row">
                             <div class="col-xs-12" id="png-footer">
-                                <img src="http://localhost/postasepeti/assets/images/pdffooter.png" width="100%" alt="">
+                                <img src="http://165.227.171.218/assets/images/pdffooter.png" width="100%" alt="">
                             </div>
                         </div>
                     </div>
@@ -87,26 +87,26 @@
                 </html>';
 
     $filename = 'mektup_' . $uniq . '.pdf';
-    $snappy->generateFromHtml($html, '/var/www/html/postasepeti/pdfdir/'.$filename);
+    $snappy->generateFromHtml($html, '/var/www/html/pdfdir/'.$filename);
 
     switch ($channel) {
         case "1":
-            $channel = "fatihint@gmail.com";
+            $channel = "grafik94@gmail.com";
             break;
         case "2":
-            $channel = "abaranozoglu@gmail.com";
+            $channel = "grafik94@gmail.com";
             break;
         case "3":
-            $channel = "karaeren042@gmail.com";
+            $channel = "grafik94@gmail.com";
             break;
         case "4":
-            $channel = "fatihint@gmail.com";
+            $channel = "grafik94@gmail.com";
             break;
         case "5":
-            $channel = "fatihint@gmail.com";
+            $channel = "grafik94@gmail.com";
             break;
         case "6":
-            $channel = "fatihint@gmail.com";
+            $channel = "abaranozoglu@gmail.com";
             break;
         default:
             # code...
@@ -129,7 +129,7 @@
         $mail->addAddress($channel);               // Name is optional
 
         //Attachments
-        $mail->addAttachment('/var/www/html/postasepeti/pdfdir/'.$filename);         // Add attachments
+        $mail->addAttachment('/var/www/html/pdfdir/'.$filename);         // Add attachments
 
         //Content
         $mail->isHTML(true);                                  // Set email format to HTML

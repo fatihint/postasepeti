@@ -56,7 +56,7 @@ $(document).ready(function(){
             userData.push(gondericiisim,gondericiadres,aliciisim,aliciadres,gondericitelefon,gondericimail,alicitelefon,alicimail);
             $.ajax({
                 type: 'POST',
-                url: '../pdf.php',
+                url: 'pdf.php',
                 data: {
                     userData,
                     uniqid,
@@ -91,15 +91,13 @@ $(document).ready(function(){
         var kullaniciadi = $("#kullanici-adi").val().trim();
         var password = $("#password").val();
         if (kullaniciadi.length>0 && password.length>0) {
-        //ne geleceği belirsiz submit etmesi gerek sanırım
+            window.location.href = "deneme.php";
         }
         else{
             alert("Bütün alanları doldurunuz.");
         }
     });
 });
-
-
 
 function isEmail(email) {
   var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -110,23 +108,3 @@ function isPhone(phone) {
   var regex =/^(05)[0-9][0-9][1-9]([0-9]){6}$/;
   return regex.test(phone);
 }
-/*
-
-    if($_POST['g-recaptcha-response']))
-                $captcha=$_POST['g-recaptcha-response'];
-
-              if(!$captcha){
-                header("Location: ../../people.php?durum=no");
-                exit();
-              }
-              $response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=YOUR SECRET KEY&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
-              if($response['success'] == false)
-              {
-                header("Location: ../../people.php?durum=no");
-              }
-              else
-              {
-                header("Location: ../../people.php?durum=ok");
-              }
-
-*/

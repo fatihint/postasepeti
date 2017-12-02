@@ -24,7 +24,7 @@
                 <div class="carousel-caption">
                   <h1>Güvenli Posta</h1>
                   <h3>Hibrit posta sistemi Türkiye'de.</h3>
-                  <p><a class="btn btn-lg btn-primary" href="hakkimizda.php" role="button">Biz Kimiz?</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="hakkimizda" role="button">Biz Kimiz?</a></p>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@
                 <div class="carousel-caption">
                   <h1>Hızlı Posta</h1>
                   <h3>Bu harika sistemi farkedin.</h3>
-                  <p><a class="btn btn-lg btn-primary" href="sistem.php" role="button">Daha Fazla!</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="sistem" role="button">Daha Fazla!</a></p>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@
                 <div class="carousel-caption">
                   <h1>Ekonomik Posta</h1>
                   <h3>Denemek için tıklayınız.</h3>
-                  <p><a class="btn btn-lg btn-primary" href="deneme.php" role="button">Sistemi Dene!</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="deneme" role="button">Sistemi Dene!</a></p>
                 </div>
               </div>
             </div>
