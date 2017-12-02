@@ -1,4 +1,4 @@
-/**************************
+images/**************************
  HEADER
 **************************/
 
@@ -17,6 +17,7 @@ header#header .container .company-name {
 header#header .container .company-name img{
     height: 80px;
     width: 350px;
+    margin-top: 10px;
 }
 
 header#header .container .company-name .logo {
@@ -88,47 +89,18 @@ header#header .container .menu .navbar #bs-example-navbar-collapse-1 ul li a:hov
 }
 
 header#header .images-menu {
-    background: #56a538;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 header#header .images-menu .container {
-    line-height: 100px;
+    width: 100%;
 }
+
 header#header .images-menu .container img{
-    display: inline;
-}
+    width: 100%;
+    margin-top: -60px;
 
-header#header .images-menu .container .ok{
-  height: 35px;
-  width: 35px;
-  margin: 15px;
-}
-
-header#header .images-menu .container #buton{
-  height: 161px;
-  width: 183px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-header#header .images-menu .container #okeopost{
-  height: 102px;
-  width: 335px;
-}
-
-header#header .images-menu .container #ptt{
-  height: 103px;
-  width: 109px;
-}
-
-header#header .images-menu .container #postaci{
-  height: 239px;
-  width: 248px;
-  z-index: 1;
-  position: absolute;
-  top: 112px;
 }
 
 header#header .after-header{
@@ -180,44 +152,21 @@ header#header .sprite {
 #hakkimizda-body{
     border:1px solid;
     border-radius: 8px;
-    padding: 10px;
+    padding: -10px;
     margin-top: -20px;
     margin-bottom: 30px;
     background: white;
     position: relative;
     font-size: 16px;
-}
-
-#hakkimizda-body ul li ul {
-  font-size: 14px;
-}
-
-#hakkimizda-body h1{
-    font-size: 40px;
-}
-
-#hakkimizda-body .row{
-    margin-right: 12px;
-    margin-left: 10px;
-    margin-top: 27px;
-}
-
-#hakkimizda-body img{
-  border: 1px solid black;
-  border-radius: 50%;
-}
-
-#hakkimizda-body .text  {
-  border: 2 solid black;
-  background-color:  #fffbd6;
-  padding: 25px;
-  margin-bottom: 50px;
 
 }
-
-#hakkimizda-body .poem{
-  display:inline;
+#hakkimizda-body p{
+    padding: -10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+
 
 /*************************
  SİSTEM
@@ -417,15 +366,15 @@ h1{
 }
 
 #thumbnail-preview-indicators .slides .slide-1 {
-  background-image: url("../images/slider.jpg");
+  background-image: url("../images/slider1.jpg");
 }
 
 #thumbnail-preview-indicators .slides .slide-2 {
-  background-image: url("../images/slider.jpg");
+  background-image: url("../images/slider5.jpg");
 }
 
 #thumbnail-preview-indicators .slides .slide-3 {
-  background-image: url("../images/slider.jpg");
+  background-image: url("../images/slider2.jpg");
 }
 
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {

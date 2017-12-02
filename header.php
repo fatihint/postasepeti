@@ -44,16 +44,7 @@
             </div>
             <div class="images-menu">
                 <div class="container">
-                    <ul class="list-unstyle list-inline">
-                        <li><img id="buton"src="assets/images/buton.png" alt=""></li>
-                        <li><img class="ok" src="assets/images/ok.png" alt=""></li>
-                        <li><img id="okeopost"src="assets/images/okeopost.png" alt=""></li>
-                        <li><img class="ok" src="assets/images/ok.png" alt=""></li>
-                        <li><img id="ptt"src="assets/images/ptt.png" alt=""></li>
-                        <li><img class="ok" src="assets/images/ok.png" alt=""></li>
-                        <li><img id="postaci"src="assets/images/postaci.png" alt=""></li>
-
-                    </ul>
+                    <img src="assets/images/baslik.png" alt="header">
                 </div>
             </div>
         </header>

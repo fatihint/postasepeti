@@ -2,43 +2,41 @@
 
 <div id="sistem">
     <div class="page-header text-center">
-        <h1>OEKOPOST HİBRİT POSTA SİSTEMİ</h1>
+        
     </div>
     <div class="container" id="sistem-body">
         <div class="col-xs-12">
             <h1>Oekopost Hibrit Posta Sistemi</h1>
-            <p>&emsp;&emsp;Avrupa’nın bir çok ülkesinde güvenle kullanılan çok ekonomik ve pratik bir evrak gönderi sistemidir.
-                Oekopost Hibrit Posta Sistemi tüm posta gönderilerinizi, sizi hiç yormadan PTT güvencesi ile yerine ulaştırır.
-                Tek yapmanız gereken bir OKEOPOST hesabı açmak ve internetten gönderi rahatlığını yaşamak...</p>
+            <p>&emsp;&emsp;Sistem, gönderi verilerini bir program gerekmeden, internet üzerinden hızlı ve kolay yükleme, firmaya/kuruma özel tasarlanmış şablonlar, mum mürekkep ile çevreye duyarlı renkli baskı, alıcı adresleri yazımı ve yazılmamış posta kodlarını otomatik ekleme, tam otomatik makinelerde zarflama ve ağız yapıştırma, posta koduna göre indexleme, boş sayfaları ayırma, geçmişe dönük arşivleme ve daha farklı onca özelliği ile Dünyanın en gelişmiş Hibrit Posta sistemidir.</p>
                 <ul>
-                    <li>Kişiye / Firmaya / Kuruma özel Oekopost hesabı açılır.
+                    <li>OEKOPOST Hızı
                         <ul>
-                            <li>Oekopost hesabınıza sadece siz erişebilirsiniz.</li>
+                            <li>Yurt içinde ve  Avrupa’da  büyük şehirlere; 24 Saat, küçük şehirlere 48 Saat içerisinde teslim garantisi verir.</li>
                         </ul>
                     </li>
-                    <li>Okeopost, gönderi şablonlarınızı sisteme uyumlu olarak sizin için hazırlar ve hesabınıza tanımlar.
+                    <li> OEKOPOST Kolaylığı
                         <ul>
-                            <li>Şablonlarınız ve geçmiş gönderileriniz sadece sizin görebileceğiniz kendi arşivinizde saklanır.</li>
+                            <li>Yazıcılar ile boğuşmaya, katlama ve zarflama, zarf üzerine adres yazma ve  sonunda PTT veya Kargoya koşuşturmaya gerek kalmadan, bir tuşla işlem biter.</li>
                         </ul>
                     </li>
-                    <li>Sİz sadece, hesabınızda tanımlı olan şablon dosyayı ve alıcı listesini gönderirsiniz.
+                    <li>OEKOPOST Güvenliği
                         <ul>
-                            <li>Gönderilerinizi, Türkiyenin neresinden ve hangi formatta gönderirseniz gönderin, şifrelenmiş olarak yazıcı işlemcisine gelir.</li>
+                            <li>Bütün Dünya’da geçerli güvenlik sertifikasına (SSL) sahip olan firma, gönderilerde kripto şifreleme yaptığından, dış müdahale imkansızdır. </li>
                         </ul>
                     </li>
-                    <li>Gönderileriniz anında Okeopost tesislerinde renkli olarak basılır, adreslenir, katlanır, zarflanır ve indexlenir.
+                    <li>OEKOPOST Tasarrufu
                         <ul>
-                            <li>Sistemde kullanılan yazıcı aygıtlar, çevre kirliliği yaratmayan mum boyaları kullanır. Düşük enerji kullanımı ile çevrecidir.</li>
+                            <li>PSistem, emekten, zamandan ve malzeme maliyetinden tasarruf sağlar . Baskı için yazıcı kartuşu ve elektrik tüketmenize, kağıt, zarf, etiket vb. malzemeler almanıza gerek kalmaz.</li>
                         </ul>
                     </li>
-                    <li>Gönderiniz aynı gün içerisinde, PTT dağıtım ağına yetişir.
+                    <li>OEKOPOST Fiyatları
                         <ul>
-                            <li>PTT, adreslerine göre indexlenmiş zarflarınızı zaman kaybetmeden dağıtım ağına yetiştirir.</li>
+                            <li>Posta taşımada; T.C. kanunları gereği PTT tarifesi geçerlidir. Oekopost baskı fiyatları ise Türkiye’nin en düşük fiyatıdır. Üstelik baskı kalitesi ve çevreye zararsız mum boya ile yapılır. Yurtdışı gönderiler için çok daha avantajlıdır. Alıcı adresine en yakın baskı merkezinde basılan gönderiler, çok daha kısa zamanda ve ucuza gider.</li>
                         </ul>
                     </li>
-                    <li>Gönderiniz, ertesi gün postacının çantasında olur.
+                    <li>OEKOPOST broşür dağıtımı
                         <ul>
-                            <li>Siz de gönderinizi, yazıcı toner, kağıt, zarf sarfetmeden, en önemlisi de hiç zaman ve emek harcamadan PTT güvencesi ile yerine ulaştırmış oluyorsunuz.</li>
+                            <li>Kurumlar veya firmalar tanıtım ve pazarlama broşürlerini OEKOPOST sayesinde daha etkili dağıtabilirler. Broşürler zarf içerisinde alıcılara ulaştığı için daha değerli olur.  Böylece yaptığınız reklam hedefine ulaşmış olur. </li>
                         </ul>
                     </li>
                 </ul>

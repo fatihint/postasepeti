@@ -22,7 +22,7 @@
               <div class="slide-1"></div>
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>Biz yaratıcıyız.</h1>
+                  <h1>Güvenli Posta</h1>
                   <h3>Hibrit posta sistemi Türkiye'de.</h3>
                   <p><a class="btn btn-lg btn-primary" href="hakkimizda.php" role="button">Biz Kimiz?</a></p>
                 </div>
@@ -32,7 +32,7 @@
               <div class="slide-2"></div>
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>Biz zekiyiz.</h1>
+                  <h1>Hızlı Posta</h1>
                   <h3>Bu harika sistemi farkedin.</h3>
                   <p><a class="btn btn-lg btn-primary" href="sistem.php" role="button">Daha Fazla!</a></p>
                 </div>
@@ -42,7 +42,7 @@
               <div class="slide-3"></div>
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>Biz inanılmazız.</h1>
+                  <h1>Ekonomik Posta</h1>
                   <h3>Denemek için tıklayınız.</h3>
                   <p><a class="btn btn-lg btn-primary" href="deneme.php" role="button">Sistemi Dene!</a></p>
                 </div>
