@@ -459,15 +459,7 @@ h1{
  MEDIA QUERIES
 *************************/
 
-@media screen and (max-width: 1088px) {
-    header#header .images-menu .container .ok{      height: 20px;  width: 18px;   }
-    header#header .images-menu .container #buton{    height: 106px;width: 108px;}
-    header#header .images-menu .container #okeopost{      height: 58px;  width: 138px;}
-    header#header .images-menu .container #ptt{         height: 63px;width: 77px; }
-    header#header .images-menu .container #postaci{        height: 159px;  width: 191px; }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     header#header .container .company-name img {height: 40px; width:175px;    }
     header#header .container .menu ul li{ text-align: center; width: 100%;}
     header#header .container .menu .navbar .navbar-header .navbar-brand{ display: block; }
@@ -475,13 +467,8 @@ h1{
     header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
     .carousel-caption{ text-align: center; font-size: 10px; }
     .carousel-caption h1{ font-size: 14px; }
-    header#header .images-menu{height: 138px;}
     header#header .images-menu .container{ padding-left: 0; padding-right: 0;position: relative; }
-    header#header .images-menu .container .ok{  height: 26px; width:30px ; margin: 5px; }
-    header#header .images-menu .container #buton{ height:118px; width: 122px; }
-    header#header .images-menu .container #okeopost{      height: 79px; width: 191px;}
-    header#header .images-menu .container #ptt{        height: 68px;  width: 78px; }
-    header#header .images-menu .container #postaci{    height: 163px;  width:150px;position: absolute;top:-21px;}
+    header#header .images-menu .container img{ margin-top: 0;}
 }
 
 @media screen and (max-width : 480px) {
@@ -491,11 +478,5 @@ h1{
 }
 
 @media screen and (max-width: 576px) {
-  header#header .images-menu{height: 95px;}
-  header#header .images-menu .container .ok{  height: 14px; width: 16px; margin: auto; }
-  header#header .images-menu .container #buton{ height: 48px; width: 52px; }
-  header#header .images-menu .container #okeopost{      height: 33px; width: 54px;}
-  header#header .images-menu .container #ptt{        height: 28px;  width: 31px; }
-  header#header .images-menu .container #postaci{    height: 116px;  width: 93px;position: relative;top:-14px;z-index: 1;}
   header#header .images-menu .container .list-inline > li{ padding-right: 0; padding-left:0;}
 }

@@ -91,22 +91,22 @@
 
     switch ($channel) {
         case "1":
-            $channel = "grafik94@gmail.com";
+            $channel = "mahmut.yildiz@oekopost.com";
             break;
         case "2":
-            $channel = "grafik94@gmail.com";
+            $channel = "adil.bayalan@oekopost.com";
             break;
         case "3":
             $channel = "grafik94@gmail.com";
             break;
         case "4":
-            $channel = "grafik94@gmail.com";
+            $channel = "mahmut.diker@oekopost.com";
             break;
         case "5":
-            $channel = "grafik94@gmail.com";
+            $channel = "volkan.yigit@oekopost.com";
             break;
         case "6":
-            $channel = "abaranozoglu@gmail.com";
+            $channel = "mahmut.yildiz@oekopost.com";
             break;
         default:
             # code...
