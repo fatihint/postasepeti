@@ -307,7 +307,7 @@ DENEME
     margin: 20px 0;
 }
 
-#iletisim .container {
+#iletisim .container .row {
     padding: 0;
     border: 1px solid;
     border-radius: 8px;
@@ -317,6 +317,9 @@ DENEME
     background: white;
     position: relative;
     font-size: 16px;
+}
+#iletisim .container h3{
+font-weight: bold;
 }
 /*************************
 SLIDER
