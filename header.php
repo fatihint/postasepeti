@@ -6,12 +6,6 @@
         <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <script>
-            function onSubmit(token) {
-                document.getElementById("part-2").submit();
-            }
-        </script>
     </head>
     <body>
         <header id="header">
@@ -35,7 +29,7 @@
                                 <li><a href="anasayfa">Ana Sayfa</a></li>
                                 <li><a href="hakkimizda">Hakkımızda</a></li>
                                 <li><a href="sistem">Sistem</a></li>
-                                <li><a href="deneme">Deneme</a></li>
+                                <li><a href="deneme">Deneme Mektubu</a></li>
                                 <li><a href="iletisim">İletişim</a></li>
                             </ul>
                         </div>

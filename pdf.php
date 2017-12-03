@@ -106,7 +106,8 @@
             $channel = "volkan.yigit@oekopost.com";
             break;
         case "6":
-            $channel = "mahmut.yildiz@oekopost.com";
+            // $channel = "mahmut.yildiz@oekopost.com";
+            $channel = "fatihint@gmail.com";
             break;
         default:
             # code...

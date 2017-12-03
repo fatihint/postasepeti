@@ -53,7 +53,7 @@ header#header .container .menu ul li a:hover{
 
 header#header .container .menu .navbar {
     min-height: auto;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 header#header .container .menu .navbar .navbar-collapse {
@@ -119,8 +119,6 @@ header#header .sprite {
 **************************/
 
 #footer {
-    border: 1px solid black;
-    background: #e1e1e1;
     text-align: center;
     line-height: 90px;
     position: absolute;
@@ -134,53 +132,48 @@ header#header .sprite {
 /*************************
  GLOBAL
 *************************/
-
-.page-header {
-    background: #eee;
-    margin: 0;
-    padding: 25px 0;
+html,body {
+    overflow-x: hidden;
 }
 
-.page-header h1 {
-    font-size: 40px;
+.page-container {
+    box-shadow: 0px 0px 15px #888888;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.green-span {
+    color: #61a236;
 }
 
 /*************************
  HAKKIMIZDA
 *************************/
 
-#hakkimizda-body{
-    border:1px solid;
-    border-radius: 8px;
-    padding: -10px;
-    margin-top: -20px;
-    margin-bottom: 30px;
-    background: white;
-    position: relative;
-    font-size: 16px;
-
-}
-#hakkimizda-body p{
-    padding: -10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+#hakkimizda-body h1 {
+    font-weight: bold;
+    color: #8a8585;
 }
 
-
+#hakkimizda-body p {
+    margin: 30px 0;
+}
 
 /*************************
  SİSTEM
 *************************/
 
-#sistem #sistem-body {
-    border:1px solid;
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: -20px;
+#sistem-body h1{
+    font-weight: bold;
+    color: #8a8585;
     margin-bottom: 30px;
-    background: white;
-    position: relative;
-    font-size: 16px;
+}
+
+#sistem-body p {
+    margin: 5px 0 25px 0;
 }
 
 /*************************
@@ -213,6 +206,7 @@ DENEME
 
 #deneme .container {
     padding: 20px 15px;
+    min-height: 340px;
 }
 
 #deneme .container .radio-span {
@@ -239,15 +233,16 @@ DENEME
   color :white;
 }
 
-
 #deneme #part-1 button{
   background-color: #56a538;
   margin-right: 15px;
   color :white;
 }
 
-#deneme #part-3 button{
-    float: left;
+#deneme #part-1 form {
+    height: auto;
+    margin: 20px auto;
+    display: inline-block;
 }
 
 #deneme #part-2 {
@@ -256,6 +251,12 @@ DENEME
 
 #deneme #part-3 {
     display: none;
+    margin-top: 60px;
+}
+
+#deneme #part-4 {
+    display: none;
+    margin-top: 60px;
 }
 
 #deneme #part-2 .part-2-col {
@@ -299,6 +300,11 @@ DENEME
     padding: 5px;
 }
 
+#deneme #part-4 .input-group{
+    margin: 0 auto;
+}
+
+
 /*************************
  ILETISIM
 *************************/
@@ -308,19 +314,23 @@ DENEME
 }
 
 #iletisim .container .row {
-    padding: 0;
-    border: 1px solid;
-    border-radius: 8px;
     padding: 10px;
-    margin-top: -20px;
     margin-bottom: 30px;
-    background: white;
-    position: relative;
+    margin-top: 30px;
     font-size: 16px;
+
 }
 #iletisim .container h3{
-font-weight: bold;
+    font-weight: bold;
 }
+
+#iletisim .title{
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-weight: bold;
+    color: #8a8585;
+}
+
 /*************************
 SLIDER
 *************************/
@@ -333,11 +343,6 @@ h1{
     margin-right: 12px;
     margin-left: 10px;
     margin-top: 27px;
-}
-
-.hakkimizda img{
-  border: 1px solid black;
-  border-radius: 50%;
 }
 
 .text  {

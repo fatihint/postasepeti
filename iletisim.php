@@ -1,17 +1,15 @@
 <?php include 'header.php'; ?>
 
 <div id="iletisim">
-    <div class="page-header text-center">
-        <h1>FİRMAMIZIN SATIŞ TEMSİLCİLERİ</h1>
-    </div>
-    <div class="container text-center">
-
+    <div class="container page-container text-center">
         <div class="row">
-          <div class="col-sm-8" id="map">
-            <h1>Harita</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.332643324943!2d32.74982824565179!3d39.99358473574594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34a27cb614873%3A0xd01c63509a39cd11!2sSerhat+Mahallesi%2C+Melih+G%C3%B6k%C3%A7ek+Blv.+No%3A31+D%3A18%2C+06378+%C4%B0vedik+Osb%2FYenimahalle%2FAnkara!5e0!3m2!1str!2str!4v1512243392636" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="col-xs-12 text-left">
+                <h1 class="title" >İletişim Bilgileri</h1>
+            </div>
+          <div class="col-xs-12 col-md-8" id="map">
+            <iframe style="float:left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.332643324943!2d32.74982824565179!3d39.99358473574594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34a27cb614873%3A0xd01c63509a39cd11!2sSerhat+Mahallesi%2C+Melih+G%C3%B6k%C3%A7ek+Blv.+No%3A31+D%3A18%2C+06378+%C4%B0vedik+Osb%2FYenimahalle%2FAnkara!5e0!3m2!1str!2str!4v1512243392636" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-12 col-md-4">
             <div>
                 <h3>Mahmut Yıldız</h3>
                 <h4>Genel Koordinatör - Kanal 1</h4>
@@ -44,7 +42,6 @@
                 <p>volkan.yigit@oekopost.com</p>
             </div>
           </div>
-
       </div>
 </div>
 
