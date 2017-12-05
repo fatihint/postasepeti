@@ -18,7 +18,7 @@ if(empty($_SESSION['token'])) {
                 </div>
                 <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
                     <h3><b>Önce Kanal Seçiniz</b></h3>
-                    <h4>Bu mektubu, birinin referansı ile yazıyorsanız, o kişinin kanal numarasını seçiniz.</h4>
+                    <h4>Bu mektubu, birinin referansı ile yazıyorsanız, o kişinin -iletişim sayfamızda mevcut- kanal numarasını seçiniz. Eğer referansınız yoksa lütfen 6.kanalı seçiniz.</h4>
                     <form class="radioButtons" action="" method="post">
                         <span class="radio-span"> <label for="radio1">1</label> <input type="radio" name="kanal" id="1" value="1" checked> </span>
                         <span class="radio-span"> <label for="radio2">2</label> <input type="radio" name="kanal" id="2" value="2"> </span>
@@ -34,14 +34,15 @@ if(empty($_SESSION['token'])) {
 
             <div class="row">
                 <div class="col-xs-12">
-                    <p>Bu mektubu ve şiiri, hem seni biraz gülümsetmek hem de Türkiye'de hizmete yeni başlayan <b>Oekopost Hibrit Posta Sistemi</b>'nin hızını ve kalitesini denemek için yazıyorum. Umarım şiiri de beğenirsin :)</p>
-                    <p>Bu mektup adresine teslim edildiğinde, beni telefon yada mail ile haberdar eder misin?<br>Bakalım dedikleri kadar hızlı mı? Kullandıkları kağıt ve baskı kalitesi nasıl?</p>
+                    <p>Bu mektubu ve Türkiye’de hizmete başlayan <b>Oekopost Hibrit Posta Sistemi</b>'nin hızını ve kalitesini denemek için yazıyorum.<br> Umarım şiiri de beğenirsin :)</p>
+                    <p>Mektup eline ulaştığı gün, beni telefon veya mail ile haberdar edebilir misin?<br>Bakalım dedikleri kadar hızlı mı? Kullandıkları kağıt ve baskı kalitesi iyi mi?</p>
                     <textarea name="mektup" id="mektup" placeholder="Özel Mesaj 'istediğinizi yazabilirsiniz ancak arkadaşınızın eline geçeceğini unutmayın. Yazdığınız yazının bütün hukuki sorumluluğu yazan kişiye aittir.(max 1000 karakter)" maxlength="1000"></textarea>
                 </div>
-                <button id="part-1-submit" type="submit" class="btn btn-default">Gönder</button>
                 <div class="col-xs-12">
                     <img src="assets/images/pdffooter.png" width="100%" alt="">
                 </div>
+                    <button id="part-1-submit" type="submit" class="btn btn-default">Gönder</button>
+
             </div>
         </div>
 
@@ -104,7 +105,7 @@ if(empty($_SESSION['token'])) {
                 <div class="col-xs-12">
                     <p class="text-center info">Tebrik Ederiz.</p>
                     <p class="text-center info">Mektubunuz sistem yazıcılarına ulaşmıştır.</p>
-                    <p class="text-center info"><b>1 dakika</b> içerisinde basılacak diğer gönderiler içerisinde sıraya geçmiş olacaktır.</p>
+                    <p class="text-center info"><b>1 dakika</b> içerisinde basılacak diğer gönderiler arasında sıraya girmiş olacaktır.</p>
                     <hr>
                     <a href="anasayfa">
                         <button id="submit" type="submit" class="btn btn-default">Ana Sayfaya Dön</button>

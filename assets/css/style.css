@@ -473,10 +473,9 @@ h1{
     header#header .container .menu .navbar .navbar-header .navbar-brand{ display: block; }
     header#header .container .menu .navbar .navbar-collapse { margin-top: 20px;}
     header#header .container .menu .navbar .navbar-collapse ul li{ padding: 7px; }
-    .carousel-caption{ text-align: center; font-size: 10px; }
-    .carousel-caption h1{ font-size: 14px; }
     header#header .images-menu .container{ padding-left: 0; padding-right: 0;position: relative; }
     header#header .images-menu .container img{ margin-top: 0;}
+    header#header .container .menu .navbar .navbar-header {margin-top: -30px}
 }
 
 @media screen and (max-width : 480px) {

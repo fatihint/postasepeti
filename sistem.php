@@ -16,13 +16,16 @@
             <p> Bütün Dünya’da geçerli güvenlik sertifikasına (SSL) sahip olan firma, gönderilerde kripto şifreleme yaptığından,<b>dış müdahale imkansızdır.</b></p>
 
             <span class="green-span"><b><i>OEKOPOST</i> Fiyatları</b></span>
-            <p> Posta taşımada; T.C. kanunları gereği PTT tarifesi geçerlidir. <span class="green-span">Oekopost</span> baskı fiyatları ise Türkiye’nin en düşük fiyatıdır. Üstelik baskı kalitesi ve çevreye zararsız mum boya ile yapılır. Yurtdışı gönderiler için çok daha avantajlıdır. Alıcı adresine en yakın baskı merkezinde basılan gönderiler, çok daha kısa zamanda ve ucuza gider. </p>
+            <p> Posta taşımada; T.C. kanunları gereği PTT tarifesi geçerlidir. <span class="green-span"><b><i>OEKOPOST</i></b></span> baskı fiyatları ise <b>Türkiye’nin en düşük fiyatıdır.</b> Yurtdışı gönderiler için çok daha avantajlıdır. Alıcı adresine en yakın baskı merkezinde basılan gönderiler, çok daha kısa zamanda ve ucuza gider. </p>
 
             <span class="green-span"><b><i>OEKOPOST</i> Tasarrufu</b></span>
             <p> Sistem, <b>emekten, zamandan ve malzeme maliyetinden tasarruf sağlar.</b> Baskı için yazıcı kartuşu ve elektrik tüketmenize, kağıt, zarf, etiket vb. malzemeler almanıza gerek kalmaz. </p>
 
             <span class="green-span"><b><i>OEKOPOST</i> Broşür Dağıtımı</b></span>
             <p> Kurumlar veya firmalar tanıtım ve pazarlama broşürlerini <span class="green-span"><b><i>OEKOPOST</i></b></span> sayesinde daha etkili dağıtabilirler. Broşürler zarf içerisinde alıcılara ulaştığı için daha değerli olur.  Böylece yaptığınız <b>reklam hedefine ulaşmış olur.</b></p>
+
+            <span class="green-span"><b><i>OEKOPOST</i> Çevre Sağlığı</b></span>
+            <p> Oekopost üstün baskı kalitesini <b>çevreye zarar vermeden</b>, atık bırakmadan mum boya ile yapmaktadır. </p>
 
             <br><br>
 
